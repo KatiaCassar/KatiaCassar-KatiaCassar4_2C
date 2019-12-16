@@ -4,38 +4,25 @@ using UnityEngine;
 
 public class PacmanMove : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 2f;
-    [SerializeField] float padding = 0.5f;
-    float xMin, xMax, yMin, yMax;
+    public float moveSpeed = 5f;
 
-    void Start()
-    {
-        SetUpMoveBountaries();
-    }
+    public Rigidbody2D rb;
+    public Animator animator;
+
+    Vector2 movement;
 
     void Update()
     {
-        Move();
+        movement.x =  Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
     }
 
-    void Move()
-    { 
-        var deltaX = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
-        var deltaY = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-
-        var newXPos = Mathf.Clamp(transform.position.x + deltaX, xMin, xMax); 
-        var newYPos = Mathf.Clamp(transform.position.y + deltaY, yMin, yMax);
-
-        transform.position = new Vector3(newXPos, newYPos, transform.position.z);
-    }
-
-    void SetUpMoveBountaries()
+    void FixedUpdate()
     {
-        Camera gameCamera = Camera.main;
-
-        xMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + padding;
-        xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
-        yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
-        yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 }
