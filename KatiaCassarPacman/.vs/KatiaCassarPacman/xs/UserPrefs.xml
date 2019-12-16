@@ -1,21 +1,17 @@
 ﻿<Properties StartupConfiguration="{478881D3-5A16-936C-365E-78B64EB8CC42}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Pacdots.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GhostSpawner.cs">
     <Files>
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/MusicPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level.cs" Line="29" Column="29" />
-      <File FileName="Assets/Scripts/PacmanMove.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameStatus.cs" Line="9" Column="45" />
-      <File FileName="Assets/Scripts/Pacdots.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GhostPathing.cs" Line="7" Column="83" />
+      <File FileName="Assets/Scripts/DotSpawnerL1.cs" />
+      <File FileName="Assets/Scripts/GhostSpawner.cs" Line="38" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="KatiaCassarPacman" expanded="True" />
           <Node name="KatiaCassarPacman" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Pacdots.cs" selected="True" />
+                <Node name="GhostSpawner.cs" selected="True" />
               </Node>
             </Node>
           </Node>
