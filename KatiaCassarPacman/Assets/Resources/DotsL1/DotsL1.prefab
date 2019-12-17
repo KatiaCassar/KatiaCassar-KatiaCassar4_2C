@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6222519717868217255}
   m_Layer: 0
   m_Name: pacdot (6)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 6222519717892685513}
   m_Layer: 0
   m_Name: pacdot (5)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 6222519718029366549}
   m_Layer: 0
   m_Name: pacdot (4)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 6222519718490916231}
   m_Layer: 0
   m_Name: pacdot (3)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -451,7 +451,7 @@ GameObject:
   - component: {fileID: 6222519718770417661}
   m_Layer: 0
   m_Name: DotsL1
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 6222519718847646562}
   m_Layer: 0
   m_Name: pacdot (0)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 6222519719091283006}
   m_Layer: 0
   m_Name: pacdot (1)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -713,7 +713,7 @@ GameObject:
   - component: {fileID: 6222519719125778594}
   m_Layer: 0
   m_Name: pacdot (2)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -823,7 +823,7 @@ GameObject:
   - component: {fileID: 6222519719321562749}
   m_Layer: 0
   m_Name: pacdot (7)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 6222519719349665773}
   m_Layer: 0
   m_Name: pacdot (8)
-  m_TagString: Untagged
+  m_TagString: dots
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class GameStatus : MonoBehaviour
 {
-    [SerializeField] int currentScore;
+    [SerializeField] int currentScore = 0;
+    [SerializeField] int currentLives = 3;
     [SerializeField] int pointsPerPacDot = 1;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI livesText;
 
     /* Awake() is a Unity built in method which is executed before the object's components are intisialised (before the Start()
      * method us executed)
@@ -34,16 +36,24 @@ public class GameStatus : MonoBehaviour
 
     void Start()
     {
-        currentScore = 0;
-        scoreText = FindObjectOfType<TextMeshProUGUI>();
+    
         scoreText.text = currentScore.ToString();
         print("testScore");
+        
+        livesText.text = currentLives.ToString();
+        print("livesText");
     }
 
     public void AddScore() // to be called when a dot is destroyed
     {
         currentScore += pointsPerPacDot;
-        FindObjectOfType<TextMeshProUGUI>().text = currentScore.ToString();
+        scoreText.text = currentScore.ToString();
+    }
+    
+    public void DecreaseLive()
+    {
+        currentLives--;
+        livesText.text = currentLives.ToString();
     }
 
     public void ResetGame()

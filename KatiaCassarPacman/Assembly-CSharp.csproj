@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\DotSpawnerL1.cs" />
      <Compile Include="Assets\Scripts\DotSpawnerL2.cs" />
      <Compile Include="Assets\Scripts\GameStatus.cs" />
+     <Compile Include="Assets\Scripts\Ghost.cs" />
      <Compile Include="Assets\Scripts\GhostPathing.cs" />
      <Compile Include="Assets\Scripts\GhostSpawner.cs" />
      <Compile Include="Assets\Scripts\Level.cs" />
