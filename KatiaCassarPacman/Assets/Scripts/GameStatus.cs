@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameStatus : MonoBehaviour
 {
@@ -59,5 +60,12 @@ public class GameStatus : MonoBehaviour
     public void ResetGame()
     {
         Destroy(gameObject);
+    }
+    
+     public void LiveDestroyed(){
+        DecreaseLive();
+        if (currentLives <= 0){
+            SceneManager.LoadScene("LoseScene");
+        }
     }
 }

@@ -22,7 +22,6 @@ public class Pacdots : MonoBehaviour
     {
 
         if(col.gameObject.tag == "pacman"){
-            gameStatus.AddScore();
             FindObjectOfType<GameStatus>().AddScore();
             level.DotDestroyed();
             Destroy(gameObject);

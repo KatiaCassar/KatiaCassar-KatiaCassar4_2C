@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class Level : MonoBehaviour
 {
     [SerializeField] int pacdots; //counter for all blocks in the scene
-    [SerializeField] int lives;
     /* This variable is placed in the Level script and not in the Block script since otherwise, each block
      * would have a separate breakableBlocks variable and all would have just the value one.
      * The Level script is executed only once for the whole scene while the Block script is executed once
@@ -40,10 +39,5 @@ public class Level : MonoBehaviour
         }
     }
     
-    public void LiveDestroyed(){
-        lives--;
-        if (lives <= 0){
-            SceneManager.LoadScene("LoseScene");
-        }
-    }
+   
 }

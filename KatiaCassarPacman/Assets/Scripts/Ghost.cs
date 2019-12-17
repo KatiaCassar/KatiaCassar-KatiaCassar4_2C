@@ -17,16 +17,13 @@ public class Ghost : MonoBehaviour
         
     }
 
-    private void OnCollision2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        gameStatus.DecreaseLive();
-        FindObjectOfType<GameStatus>().DecreaseLive();
-        level.LiveDestroyed();
 
-        if(tag == "pacman")
+        if(col.gameObject.tag == "pacman")
         {
-            Destroy(gameObject);
-            level.LiveDestroyed();
+            col.gameObject.transform.position= new Vector3 (14,14,0);
+            FindObjectOfType<GameStatus>().LiveDestroyed();
             
             GetComponent<AudioSource>().PlayOneShot(pacmanDiesSound);
         }
