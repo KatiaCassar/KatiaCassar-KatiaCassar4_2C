@@ -94,23 +94,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ghost: {fileID: 0}
-  moveSpeed: 2
+  - {fileID: 2082898284091604585, guid: eb5a50f74bcb74ef6922d1a14ef43e4b, type: 3}
+  - {fileID: 1634004723447512211, guid: 00ae81b05783947d6ae7e7c5cfb60fbe, type: 3}
+  - {fileID: 8707637034954054304, guid: a4bd9e51ecf6748a4b8574db9b193946, type: 3}
+  - {fileID: 6225321709331495989, guid: 6bf44480f978843108d55de9e9131b82, type: 3}
+  - {fileID: 6192247986936375449, guid: 9e2ada52f67704bc9afef6d308ee3590, type: 3}
+  - {fileID: 7163682866672335624, guid: 18eb1a27dd6bf477184a05118083742d, type: 3}
+  - {fileID: 2415855789088714215, guid: 9077c0cc4f7a14e5a96cca5a2d049435, type: 3}
+  - {fileID: 91163170712175282, guid: 638ad6d816bdb475eb5c93a375dd3c97, type: 3}
+  - {fileID: 279573583406959375, guid: 8003da29b46c6409497f2ac2a5c391ad, type: 3}
+  - {fileID: 4147461318159589123, guid: 53416b9ca91374d3a865b17c0a0058bf, type: 3}
+  - {fileID: 1319589364391719975, guid: feae793f819b241d0aaa2862d3ce6c4a, type: 3}
+  - {fileID: 5297359193703858079, guid: b73ca3a87a89b4e7fab65e5d2db8cf1f, type: 3}
+  - {fileID: 6319146923478817426, guid: 83260ab7fda4245459aecfb9163f567f, type: 3}
+  - {fileID: 3935866155116497525, guid: a8002c45c17c1447b85af6b3596d91e5, type: 3}
+  moveSpeed: 3

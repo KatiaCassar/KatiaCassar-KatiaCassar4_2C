@@ -94,14 +94,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  ghost: {fileID: 0}
-  moveSpeed: 2
+  - {fileID: 4328690750164345010, guid: dc1cd07ce4364482bb7ee6b417a411b8, type: 3}
+  - {fileID: 4010419154616497621, guid: 66d968c80c0a04744902b9f835633180, type: 3}
+  - {fileID: 6591048306737469635, guid: fa5c4b66b2f3149e2af6943f548cfa80, type: 3}
+  - {fileID: 5808561237949290532, guid: 70f08f10527b241edb88d0eb3751c726, type: 3}
+  - {fileID: 6385773213366085914, guid: 851c528faf09b4a9f8e42bbadc433425, type: 3}
+  - {fileID: 3076032932046829197, guid: 7f873b483da8541429b7d76d59cc29db, type: 3}
+  - {fileID: 6612418315626244693, guid: e9818ed3f1d14434fb53fda91e12d9d8, type: 3}
+  - {fileID: 4215997134914342860, guid: b63b4e5a6fe30452fb21eb792da99131, type: 3}
+  - {fileID: 3304806505893828247, guid: 96a8d7e131a54472f9fc056f2edea8f0, type: 3}
+  - {fileID: 2755301390926720464, guid: 3e94c6cc19a174ed0a7dad6268e92694, type: 3}
+  - {fileID: 8750210504100147433, guid: 1312e4a4c49e54cd69545648d89a51d0, type: 3}
+  - {fileID: 2634065010184238486, guid: 2e824e76bb5d947f488e88c793e9d4b4, type: 3}
+  - {fileID: 8792336945485612839, guid: 8f5829ad0762d415dbd496598b922b75, type: 3}
+  - {fileID: 3491214694666837205, guid: 028cdeab680b94fd888ff1a020316119, type: 3}
+  - {fileID: 8016077289762517699, guid: f2fc5860a92614a8aa9c157ec6ca6a85, type: 3}
+  - {fileID: 1436592972804312926, guid: 2a9543680b58a41e89464deb95d334ea, type: 3}
+  - {fileID: 872973779322967642, guid: 09cb92f9f538b45e683adbdfe5abc5fc, type: 3}
+  - {fileID: 5656923968400249182, guid: 7ee0e68c0aade4798b7ac8950de5ab8c, type: 3}
+  - {fileID: 8538290739029903308, guid: 6b8e3ad891bb04d63a372e63d2ee8812, type: 3}
+  - {fileID: 5781694087241164744, guid: 044e41e1a407640f386e94a3107607ef, type: 3}
+  - {fileID: 5166701816529421676, guid: ec3e788c9615e48d895f68f7d4c033e4, type: 3}
+  - {fileID: 1134559598983157015, guid: 80d8056f03d834c368d045b005e9435f, type: 3}
+  - {fileID: 2263518752584201931, guid: 6e5a0bd6bff234ac78d79cd0b4bb7b1d, type: 3}
+  - {fileID: 1682471913961123763, guid: 6d35d3b4cd42e45c682cebf5032d0b3d, type: 3}
+  - {fileID: 5326144610806926595, guid: 6bd6fce4ec2fa4a9da26de25f4bd28f6, type: 3}
+  - {fileID: 7365704793465643756, guid: f5ea351cc624b4eba997c79fc5e2c1ea, type: 3}
+  moveSpeed: 3

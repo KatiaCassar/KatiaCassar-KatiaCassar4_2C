@@ -39,7 +39,9 @@ public class GhostPathing : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            waypointIndex = 2;
+        
+            //Destroy(gameObject);
             /*GameObject with an uppercase G is the class which describes the
              * data a game object can have, and the methods it can execute. The
              * gameObject with a lowercase g is the current game object to which

@@ -15,7 +15,7 @@ public class Pacdots : MonoBehaviour
 
         gameStatus = FindObjectOfType<GameStatus>();
         
-        //level.CountDots();
+        level.CountDots();
         
     }
 
@@ -23,12 +23,12 @@ public class Pacdots : MonoBehaviour
     {
         gameStatus.AddScore();
         FindObjectOfType<GameStatus>().AddScore();
-        //level.DotDestroyed();
+        level.DotDestroyed();
 
         if(tag == "pacman")
         {
             Destroy(gameObject);
-            //level.DotDestroyed();
+            level.DotDestroyed();
         }
     }
 
