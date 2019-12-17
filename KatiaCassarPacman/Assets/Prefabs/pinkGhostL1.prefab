@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 8684151311682879335}
   - component: {fileID: 5316350306233074543}
   - component: {fileID: 7272975871206495438}
-  - component: {fileID: -5398159069132814857}
   - component: {fileID: 6705065136604140904}
+  - component: {fileID: -4037091737059871599}
   m_Layer: 0
-  m_Name: pinkGhost
+  m_Name: pinkGhostL1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,7 +159,22 @@ PolygonCollider2D:
       - {x: -0.26999998, y: -0.655}
       - {x: -0.13, y: -0.73499995}
       - {x: 0.13, y: -0.73499995}
---- !u!82 &-5398159069132814857
+--- !u!114 &6705065136604140904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3033652463874450440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13459e2c75fde49129c48ae0363c765b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacmanDiesSound: {fileID: 8300000, guid: 8be83d84961a843a381844b299329346, type: 3}
+  ghostXaxis: 14
+  ghostYaxis: 14
+--- !u!82 &-4037091737059871599
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,8 +184,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8be83d84961a843a381844b299329346, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: c87234d02ac7a4326960b507978be439, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -255,16 +270,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &6705065136604140904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3033652463874450440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13459e2c75fde49129c48ae0363c765b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pacmanDiesSound: {fileID: 8300000, guid: 8be83d84961a843a381844b299329346, type: 3}

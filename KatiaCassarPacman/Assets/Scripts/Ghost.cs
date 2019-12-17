@@ -6,6 +6,9 @@ public class Ghost : MonoBehaviour
 {
 
     [SerializeField] AudioClip pacmanDiesSound;
+    [SerializeField] float ghostXaxis;
+    [SerializeField] float ghostYaxis;
+    
     Level level; // a copy/instance of the Level class
     GameStatus gameStatus;
 
@@ -22,10 +25,10 @@ public class Ghost : MonoBehaviour
 
         if(col.gameObject.tag == "pacman")
         {
-            col.gameObject.transform.position= new Vector3 (14,14,0);
+            col.gameObject.transform.position= new Vector3 (ghostXaxis, ghostYaxis, 0);
             FindObjectOfType<GameStatus>().LiveDestroyed();
             
-            GetComponent<AudioSource>().PlayOneShot(pacmanDiesSound);
+            AudioSource.PlayClipAtPoint(pacmanDiesSound, Camera.main.transform.position);
         }
     }
 

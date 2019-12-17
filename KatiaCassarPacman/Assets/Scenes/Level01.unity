@@ -194,6 +194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 7779347602869012797, guid: 485947b7291dd45fc9bac9b125c4e570,
     type: 3}
+  maximumNumberOfEnemies: 3
+  spawnTime: 5
   firstSpawnPoint: {fileID: 4047253985416447776, guid: dc1cd07ce4364482bb7ee6b417a411b8,
     type: 3}
 --- !u!4 &783989235
@@ -307,6 +309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 430590744312805054, guid: f82ea199e2e7d4e33857ff14bfdc1dc2,
     type: 3}
+  maximumNumberOfEnemies: 3
+  spawnTime: 5
   firstSpawnPoint: {fileID: 4194564533881381527, guid: b49c431c9c29247228eda83668e2d062,
     type: 3}
 --- !u!4 &1038981465
@@ -462,6 +466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 3033652463874450440, guid: a85f7f88bda384de8b255210f7aa9b2a,
     type: 3}
+  maximumNumberOfEnemies: 3
+  spawnTime: 5
   firstSpawnPoint: {fileID: 1307090665371600436, guid: eb5a50f74bcb74ef6922d1a14ef43e4b,
     type: 3}
 --- !u!1 &1914431972
