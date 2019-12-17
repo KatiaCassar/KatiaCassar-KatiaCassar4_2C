@@ -10,7 +10,6 @@ public class LevelLoader : MonoBehaviour
         if (sceneName == "StartScene")
             FindObjectOfType<GameStatus>().ResetGame();
 
-        SceneManager.LoadScene(sceneName);
     }
 
     public void LoadNextScene()
@@ -25,7 +24,7 @@ public class LevelLoader : MonoBehaviour
 
     public void Quit()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
+         Application.Quit();
     }
 
 }

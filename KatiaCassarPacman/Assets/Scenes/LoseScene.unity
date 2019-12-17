@@ -237,15 +237,25 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3860868017785150822, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -21
+      propertyPath: m_textInfo.characterCount
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8053283016405900148, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
-      propertyPath: m_Name
-      value: YouLost
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 94516380895484808, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
@@ -272,25 +282,15 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+    - target: {fileID: 3860868017785150822, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
+      propertyPath: m_AnchoredPosition.x
+      value: -21
       objectReference: {fileID: 0}
-    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
+    - target: {fileID: 8053283016405900148, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6222823658927780228, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
+      propertyPath: m_Name
+      value: YouLost
       objectReference: {fileID: 0}
     - target: {fileID: 8337121267203706705, guid: b3a0521bfd05f4e40ad3c1aabeef8bfd,
         type: 3}
